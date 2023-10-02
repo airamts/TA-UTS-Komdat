@@ -1,4 +1,4 @@
-# Welcome to Our Project: Openrouteservice Maps💫
+# Welcome to Our Project: OpenRouteService Maps💫
 ![alt text](assets/images/osr-img.jpg?raw=true)
 
 **Oleh Kelompok 1 P1:**
@@ -11,12 +11,9 @@
 | 4   | Dwi Fitriani Azhari                | G64012011072 |
 | 5   | Medina Fitri Maulida               | G64012011096 |
 
-## About Openrouteservice Maps
+## About OpenRouteService Maps
 
-Openrouteservice Maps merupakan aplikasi yang memungkinkan pengguna untuk menghitung rute dan mendapatkan informasi navigasi di seluruh dunia. Layanan ini menyediakan berbagai pilihan perjalanan untuk berbagai mode transportasi. Beberapa mode transportasi yang dapat dipilih meliputi mobil, berbagai jenis sepeda, berjalan kaki, mendaki, kursi roda, dan kendaraan berat. Setiap mode transportasi ini menggunakan jaringan jalan yang telah disusun secara cermat sesuai dengan kebutuhan profilnya.
-
-Selain itu, layanan ini juga memberikan kemungkinan untuk menyesuaikan masukan pengguna dengan pembatasan jenis jalan dan karakteristik kendaraan, sehingga pengguna dapat mengkustomisasi rute sesuai kebutuhan.
-
+OpenRouteService Maps merupakan aplikasi yang memungkinkan pengguna untuk menghitung rute dan mendapatkan informasi navigasi di seluruh dunia. Layanan ini menyediakan berbagai pilihan perjalanan untuk berbagai mode transportasi dan kustomisasi rute yang diinginkan. Beberapa mode transportasi yang dapat dipilih meliputi mobil, berbagai jenis sepeda, berjalan kaki, mendaki, kursi roda, dan berbagai kendaraan berat. Kemudian pengguna dapat menyesuaikan rute yang dipilih, mulai dari memilih rute yang direkomendasikan oleh sistem ataupun memilih jarak yang terpendek, menghindari daerah yang tidak diinginkan dalam rute, menyesuaikan dengan kecepatan maksimal berkendara, dan sebagainya.
 
 ## Installation and Configuration
 
