@@ -98,6 +98,7 @@ Untuk mengakses website kami, dapat menggunakan alamat IP publik maupun alamat D
 - DNS		: http://komdatp1kel1.eastus.cloudapp.azure.com
 
 ## How to Use
+
 ### 1. Tampilan awal web
 ![alt text](assets/images/osr-img1.jpg?raw=true)
 Web akan langsung menampilkan peta serta beberapa icon/fitur yang memiliki kegunaan berikut.
@@ -149,12 +150,26 @@ Berikut adalah tampilan masing-masing mode layer:
 #### Mode Outdoors
 ![alt text](assets/images/osr-img12.jpg?raw=true)
 
-## Review
+## Pembahasan
 
-- Pendapat anda tentang aplikasi web ini
-    - kelebihan
-    - kekurangan
-- Bandingkan dengan aplikasi web lain yang sejenis
+OpenRouteService ditulis dalam bahasa pemrograman Java yang mendukung penggunaan MySQL. Aplikasi ini menawarkan beberapa kelebihan diantaranya:
+1. Bisa mengatur parameter (kecepatan maks, lokasi di rute yang mau dihindari, rute alternatif). 
+2. Open Source yang dapat diakses oleh semua orang dan dikembangkan oleh komunitas. Ini memungkinkan fleksibilitas dalam menyesuaikan atau memodifikasi fitur sesuai kebutuhan. 
+3. Ketersediaan data terbuka yang bisa diakses oleh siapa saja. Hal ini dapat memberikan akses lebih banyak informasi geografis.
+4. Pilihan kendaraan yang digunakannya lebih beragam. 
+5. OpenRouterService ini terdapat fitur kontur/topografi yang bisa melihat tingkat kecuraman. 
+6. Bisa membuat graf dan menghitung luas daerah yang ditandain dengan bentuk persegi/polygon.
+
+Tentu saja, sebuah aplikasi pasti memiliki kekurangan. Kekurangan yang dimiliki OpenRouterService antara lain :
+1. Pada OpenRouterService Maps tidak memiliki fitur lalu lintas real-time dan integrasi dengan layanan Google lainnya.
+2. OpenRouterService Maps mungkin memiliki kurangnya data pemetaan dan bisnis lokal. 
+3. OpenRouterService tidak memiliki simbol spesifik seperti Google Maps. 
+
+Jika dibandingkan dengan CMS sejenisnya seperti Google Maps, CMS ini memiliki beberapa keunggulan dan kelemahan. Berikut adalah beberapa perbandingan antara kedua CMS ini :
+1. Google Maps memiliki akses ke lebih banyak data dan integrasi dengan layanan Google lainnya dibandingkan dengan OpenRouterService Maps.
+2. OpenRouterService Maps sumber terbuka yang gratis, sedangkan Google Maps memiliki model bisnis berbayar dibeberapa fitur seperti API pengembang.
+3. OpenRouterService ini memiliki fitur kendaraan yang beragam dan fitur kontur/topografi yang bisa melihat tingkat kecuraman dibandingkan dengan Google Maps. 
+4. OpenStreetMap tersebut bisa mengatur parameter, membuat graf dan menghitung luas daerah dibandingkan dengan Google Maps.
 
 
 ## Reference
