@@ -47,7 +47,7 @@ Setting tambahan untuk maintenance secara periodik, misalnya:
 Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 
 
-## HOw to Use
+## How to Use
 
 - Tampilan aplikasi web
 - Fungsi-fungsi utama
