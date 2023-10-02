@@ -57,11 +57,21 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 ![alt text](assets/images/osr-img4.jpg?raw=true)
 ### 4. Mengetahui jarak antar lokasi (bisa 2 atau lebih) dengan menarik garis lurus
 ![alt text](assets/images/osr-img5.jpg?raw=true)
-### 4. Mengetahui luas daerah berdasarkan titik-titik yang ditentukan (polygon)
+### 5. Mengetahui luas daerah berdasarkan titik-titik yang ditentukan (polygon)
 ![alt text](assets/images/osr-img6.jpg?raw=true)
-### 5. Mengetahui luas daerah berdasarkan titik-titik yang ditentukan (rectangle)
+### 6. Mengetahui luas daerah berdasarkan titik-titik yang ditentukan (rectangle)
 ![alt text](assets/images/osr-img7.jpg?raw=true)
-
+### 7. Mengubah mode layer tampilan map
+#### Mode OpenStreetMap
+![alt text](assets/images/osr-img8.jpg?raw=true)
+#### Mode Satellite Imagery
+![alt text](assets/images/osr-img9.jpg?raw=true)
+#### Mode Topography
+![alt text](assets/images/osr-img10.jpg?raw=true)
+#### Mode Transport Dark
+![alt text](assets/images/osr-img11.jpg?raw=true)
+#### Mode Outdoors
+![alt text](assets/images/osr-img12.jpg?raw=true)
 
 ## Review
 
