@@ -15,7 +15,7 @@
 
 OpenRouteService Maps merupakan aplikasi yang memungkinkan pengguna untuk menghitung rute dan mendapatkan informasi navigasi di seluruh dunia. Layanan ini menyediakan berbagai pilihan perjalanan untuk berbagai mode transportasi dan kustomisasi rute yang diinginkan. Beberapa mode transportasi yang dapat dipilih meliputi mobil, berbagai jenis sepeda, berjalan kaki, mendaki, kursi roda, dan berbagai kendaraan berat. Kemudian pengguna dapat menyesuaikan rute yang dipilih, mulai dari memilih rute yang direkomendasikan oleh sistem ataupun memilih jarak yang terpendek, menghindari daerah yang tidak diinginkan dalam rute, menyesuaikan dengan kecepatan maksimal berkendara, dan sebagainya.
 
-# Installation and Configuration
+## Installation and Configuration
 
 ### Kebutuhan Sistem
 - Unix, Linux atau Windows.
