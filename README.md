@@ -73,8 +73,8 @@ Web akan langsung menampilkan peta serta beberapa icon/fitur yang memiliki kegun
 | Icon GPS                         | Mencari lokasi dari device yang sedang digunakan |
 
 ### 2. Mengetahui lokasi suatu titik pada peta
-![alt text](assets/images/osr-img3.jpg?raw=true)
-Untuk melakukan ini, kita hanya perlu mengetikkan nama lokasi pada search bar. Jika lokasi tersebut terdapat dalam database, lokasi tersebut akan diperlihatkan pada peta. Rincian terkait lokasi tersebut, seperti nama lokasi, letak negara, layer lokasi (misal: street, venue), dan koordinat longitude-latitude.
+![alt text](assets/images/ors-1-titik.jpg?raw=true)
+Untuk melakukan ini, kita hanya perlu mengetikkan nama lokasi pada search bar. Jika lokasi tersebut ditemukan pada database, lokasi tersebut akan diperlihatkan pada peta. Rincian terkait lokasi tersebut, seperti nama lokasi, letak negara, layer lokasi (misal: street, venue), dan koordinat longitude-latitude akan terlihat pada sidebar.
 ### 3. Mengetahui rute antar lokasi (bisa 2 atau lebih)
 ![alt text](assets/images/osr-img4.jpg?raw=true)
 Untuk melakukan ini, pertama-tama, kita perlu membuka sidebar. Pastikan bahwa yang terpilih adalah "Find & Go", bukan "Reach", lalu masukkan lokasi awal kita di kolom "Starting Place". Kemudian, kita memasukkan lokasi tujuan akhir di kolom "Destination". Jika kita ingin mencari rute yang melewati lebih dari lokasi, kita bisa memilih "Add place input" agar bisa memasukkan lokasi-lokasi tambahan. Urutan lokasi yang dikunjungi juga bisa diubah-ubah urutannya. Kita kemudian akan mendapatkan rute pada peta beserta beberapa rincian seperti jarak, waktu tempuh, instruksi jalan yang harus dilewati, altitudo jalan yang dilewati rute, dan pilihan untuk melihat permukaan (surface), steepness (kemiringan), atau jenis jalan (way types) dari jalan yang dilewati rute.
@@ -82,10 +82,11 @@ Untuk melakukan ini, pertama-tama, kita perlu membuka sidebar. Pastikan bahwa ya
 Kita juga dapat menyesuaikan sejumlah parameter untuk rute yang ditampilkan, yaitu preferensi rute (reccommended atau shortest), parameter profil (tergantung jenis mode transportasi), hal-hal yang ingin dihindari rute (fitur tertentu, perbatasan dengan negara lain, negara tertentu), dan rute alternatif.
 ### 4. Mengetahui jarak antar lokasi (bisa 2 atau lebih) dengan menarik garis lurus
 ![alt text](assets/images/osr-img5.jpg?raw=true)
-### 5. Mengetahui luas daerah berdasarkan titik-titik yang ditentukan (polygon)
-![alt text](assets/images/osr-img6.jpg?raw=true)
-### 6. Mengetahui luas daerah berdasarkan titik-titik yang ditentukan (rectangle)
-![alt text](assets/images/osr-img7.jpg?raw=true)
+### 5. Menghindari area tertentu pada peta
+![alt text](assets/images/ors-segiempat-poligon.jpg?raw=true)
+Untuk mencegah rute melewati suatu area yang tidak kita inginkan, kita bisa menandainya dengan menggambar segi empat atau poligon pada area tersebut menggunakan icon yang ada di sisi kiri.
+![alt text](assets/images/ors-segiempat-info.jpg?raw=true)
+Jika kita mengeklik gambar segi empat atau poligon yang sudah kita buat, akan muncul sebuah pop-up di kanan bawah layar yang berisi informasi luas daerah, nama daerah di peta, dan koordinat longitude-latitude (pada gambar di atas ditandai dengan panah merah).
 ### 7. Mengubah mode layer tampilan map
 #### Mode OpenStreetMap
 ![alt text](assets/images/osr-img8.jpg?raw=true)
