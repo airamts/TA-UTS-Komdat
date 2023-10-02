@@ -1,4 +1,5 @@
 # Welcome to Our Project: Openrouteservice Maps💫
+![alt text](assets/images/osr-img.jpg?raw=true)
 
 **Oleh Kelompok 1 P1:**
 
@@ -48,11 +49,8 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 
 
 ## How to Use
-
-- Tampilan aplikasi web
-- Fungsi-fungsi utama
-- Isi dengan data real/dummy (jangan kosongan) dan sertakan beberapa screenshot
-
+### 1. Landing page
+### 2. Mengetahui jarak antar lokasi
 
 ## Review
 
