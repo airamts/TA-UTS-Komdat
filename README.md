@@ -18,8 +18,7 @@ Openrouteservice Maps merupakan aplikasi yang memungkinkan pengguna untuk menghi
 Selain itu, layanan ini juga memberikan kemungkinan untuk menyesuaikan masukan pengguna dengan pembatasan jenis jalan dan karakteristik kendaraan, sehingga pengguna dapat mengkustomisasi rute sesuai kebutuhan.
 
 
-## Instalation and Configuration
-[`^ kembali ke atas ^`](#)
+## Installation and Configuration
 
 #### Kebutuhan Sistem
 - Unix, Linux atau Windows.
@@ -174,4 +173,5 @@ Jika kita mengeklik gambar segi empat atau poligon yang sudah kita buat, akan mu
 
 ## Reference
 
-Cantumkan tiap sumber informasi yang anda pakai.
+1. [Install Docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04) - DigitalOcean
+2. [OpenRouteService Installation](https://github.com/GIScience/ors-map-client) - Github
