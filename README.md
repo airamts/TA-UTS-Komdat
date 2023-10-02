@@ -55,6 +55,8 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 ![alt text](assets/images/osr-img3.jpg?raw=true)
 ### 3. Mengetahui jarak antar lokasi (bisa 2 atau lebih)
 ![alt text](assets/images/osr-img4.jpg?raw=true)
+### 4. Mengetahui jarak antar lokasi (bisa 2 atau lebih) dengan menarik garis lurus
+![alt text](assets/images/osr-img5.jpg?raw=true)
 
 
 ## Review
