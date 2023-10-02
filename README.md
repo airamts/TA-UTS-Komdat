@@ -137,10 +137,6 @@ Jika kita mengeklik gambar segi empat atau poligon yang sudah kita buat, akan mu
 ### 7. Mengubah mode layer tampilan map
 Pengguna dapat mengubah mode layer map yang diingink dengan mengklik simbol yang berada di pojok kanan atas berikut
 ![alt text](assets/images/osr-img14.jpg?raw=true)
-
-Dan akan tertampil beberapa pilihan model layer yang diinginkan
-![alt text](assets/images/osr-img13.jpg?raw=true)
-
 Berikut adalah tampilan masing-masing mode layer:
 #### Mode OpenStreetMap
 ![alt text](assets/images/osr-img8.jpg?raw=true)
