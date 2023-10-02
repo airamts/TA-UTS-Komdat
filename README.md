@@ -13,7 +13,9 @@
 
 ## About Openrouteservice Maps
 
-Openrouteservice Maps merupakan aplikasi pencarian rute dari satu titik ke titik lain pada peta GPS
+Openrouteservice Maps merupakan aplikasi yang memungkinkan pengguna untuk menghitung rute dan mendapatkan informasi navigasi di seluruh dunia. Layanan ini menyediakan berbagai pilihan perjalanan untuk berbagai mode transportasi. Beberapa mode transportasi yang dapat dipilih meliputi mobil, berbagai jenis sepeda, berjalan kaki, mendaki, kursi roda, dan kendaraan berat. Setiap mode transportasi ini menggunakan jaringan jalan yang telah disusun secara cermat sesuai dengan kebutuhan profilnya.
+
+Selain itu, layanan ini juga memberikan kemungkinan untuk menyesuaikan masukan pengguna dengan pembatasan jenis jalan dan karakteristik kendaraan, sehingga pengguna dapat mengkustomisasi rute sesuai kebutuhan.
 
 
 ## Instalation
