@@ -57,6 +57,8 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 ![alt text](assets/images/osr-img4.jpg?raw=true)
 ### 4. Mengetahui jarak antar lokasi (bisa 2 atau lebih) dengan menarik garis lurus
 ![alt text](assets/images/osr-img5.jpg?raw=true)
+### 4. Mengetahui luas daerah berdasarkan titik-titik yang ditentukan (polygon)
+![alt text](assets/images/osr-img6.jpg?raw=true)
 
 
 ## Review
