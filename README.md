@@ -1,5 +1,5 @@
 # Welcome to Our Project: Openrouteservice Maps💫
-![OSR!](/assets/images/ors-img.jpg "OSR Image")
+![alt text](assets/images/osr-img.jpg?raw=true)
 
 **Oleh Kelompok 1 P1:**
 
