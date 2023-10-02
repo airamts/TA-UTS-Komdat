@@ -49,10 +49,12 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 
 
 ## How to Use
-### 1. Landing page
+### 1. Tampilan awal web
 ![alt text](assets/images/osr-img1.jpg?raw=true)
-### 2. Mengetahui jarak antar lokasi
-![alt text](assets/images/osr-img.jpg?raw=true)
+### 2. Mengetahui lebih dari satu titik lokasi
+![alt text](assets/images/osr-img3.jpg?raw=true)
+### 3. Mengetahui jarak antar lokasi
+![alt text](assets/images/osr-img2.jpg?raw=true)
 
 ## Review
 
