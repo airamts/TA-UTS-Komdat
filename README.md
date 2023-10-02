@@ -20,11 +20,11 @@ Selain itu, layanan ini juga memberikan kemungkinan untuk menyesuaikan masukan p
 
 ## Installation and Configuration
 
-#### Kebutuhan Sistem
+### Kebutuhan Sistem
 - Unix, Linux atau Windows.
 - Docker
 
-#### Pembuatan Virtual Machine
+### Pembuatan Virtual Machine
 Untuk menjalankan server, kami membuat virtual machine Ubuntu Server 22.04 LTS menggunakan Microsoft Azure. Berikut langkah-langkah pembuatan virtual machine.
 1. Jika belum memiliki akun, registrasi menggunakan email IPB.
 2. Ambil student benefit, untuk akun yang menggunakan email IPB akan mendapat saldo $100.
