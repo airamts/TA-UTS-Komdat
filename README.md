@@ -135,7 +135,7 @@ Untuk mencegah rute melewati suatu area yang tidak kita inginkan, kita bisa mena
 ![alt text](assets/images/ors-segiempat-info.jpg?raw=true)
 Jika kita mengeklik gambar segi empat atau poligon yang sudah kita buat, akan muncul sebuah pop-up di kanan bawah layar yang berisi informasi luas daerah, nama daerah di peta, dan koordinat longitude-latitude (pada gambar di atas ditandai dengan panah merah).
 ### 7. Mengubah mode layer tampilan map
-Pengguna dapat mengubah mode layer map yang diingink dengan mengklik simbol yang berada di pojok kanan atas berikut
+Pengguna dapat mengubah mode layer map yang diinginkan dengan mengklik simbol yang berada di pojok kanan atas berikut.
 ![alt text](assets/images/osr-img14.jpg?raw=true)
 Berikut adalah tampilan masing-masing mode layer:
 #### Mode OpenStreetMap
