@@ -50,6 +50,7 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 
 ## How to Use
 ### 1. Landing page
+![alt text](assets/images/osr-img1.jpg?raw=true)
 ### 2. Mengetahui jarak antar lokasi
 
 ## Review
