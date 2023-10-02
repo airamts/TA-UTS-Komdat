@@ -139,7 +139,7 @@ Web akan langsung menampilkan peta serta beberapa icon/fitur yang memiliki kegun
 ### 2. Mengetahui lokasi suatu titik pada peta
 ![alt text](assets/images/ors-1-titik.jpg?raw=true)
 Untuk melakukan ini, kita hanya perlu mengetikkan nama lokasi pada search bar. Jika lokasi tersebut ditemukan pada database, lokasi tersebut akan diperlihatkan pada peta. Rincian terkait lokasi tersebut, seperti nama lokasi, letak negara, layer lokasi (misal: street, venue), dan koordinat longitude-latitude akan terlihat pada sidebar.
-### 3. Mengetahui rute antar lokasi (bisa 2 atau lebih)
+### 3. Mengetahui jarak antar lokasi (bisa 2 atau lebih)
 ![alt text](assets/images/osr-img4.jpg?raw=true)
 Untuk melakukan ini, pertama-tama, kita perlu membuka sidebar. Pastikan bahwa yang terpilih adalah "Find & Go", bukan "Reach", lalu masukkan lokasi awal kita di kolom "Starting Place". Kemudian, kita memasukkan lokasi tujuan akhir di kolom "Destination". Jika kita ingin mencari rute yang melewati lebih dari lokasi, kita bisa memilih "Add place input" agar bisa memasukkan lokasi-lokasi tambahan. Urutan lokasi yang dikunjungi juga bisa diubah-ubah urutannya. Kita kemudian akan mendapatkan rute pada peta beserta beberapa rincian seperti jarak, waktu tempuh, instruksi jalan yang harus dilewati, altitudo jalan yang dilewati rute, dan pilihan untuk melihat permukaan (surface), steepness (kemiringan), atau jenis jalan (way types) dari jalan yang dilewati rute.
 
