@@ -15,7 +15,7 @@
 
 OpenRouteService Maps merupakan aplikasi yang memungkinkan pengguna untuk menghitung rute dan mendapatkan informasi navigasi di seluruh dunia. Layanan ini menyediakan berbagai pilihan perjalanan untuk berbagai mode transportasi dan kustomisasi rute yang diinginkan. Beberapa mode transportasi yang dapat dipilih meliputi mobil, berbagai jenis sepeda, berjalan kaki, mendaki, kursi roda, dan berbagai kendaraan berat. Kemudian pengguna dapat menyesuaikan rute yang dipilih, mulai dari memilih rute yang direkomendasikan oleh sistem ataupun memilih jarak yang terpendek, menghindari daerah yang tidak diinginkan dalam rute, menyesuaikan dengan kecepatan maksimal berkendara, dan sebagainya.
 
-## Installation and Configuration
+# Installation and Configuration
 
 ### Kebutuhan Sistem
 - Unix, Linux atau Windows.
@@ -76,15 +76,15 @@ Untuk menjalankan server, kami membuat virtual machine Ubuntu Server 22.04 LTS m
     ```
     $ cd src && cp config-examples/* config && for i in config/*-example.js; do mv -- "$i" "${i%-example.js}.js"; done
     ```
-5. Pada file `app-config.js`, isi nilai berikut.
+5. Pada file `app-config.js`, isi API key untuk pengembangan aplikasi dan mempersingkat url.
     - orsApiKey - didapatkan dari [website developer openrouteservice](https://openrouteservice.org/dev) dengan me-*request* API token
     - bitlyApiKey - didapatkan dari [website developer bit.ly](https://app.bitly.com/) dengan meng-*generate* API token
     - bitlyLogin - email atau username yang digunakan untuk [website developer bit.ly](https://app.bitly.com/)
     ![configkey](https://github.com/airamts/TA-UTS-Komdat/assets/86961194/fa0b1ff5-a105-46d1-9d12-7ef64b525d5f)
 
 5. Set port yang akan dijalankan menjadi 80 dengan mengubah port pada file `docker-compose.yml`
-    ![port-before](https://github.com/airamts/TA-UTS-Komdat/assets/86961194/61c12f66-bc73-4069-9237-397c272bb10b)
-    ![port-after](https://github.com/airamts/TA-UTS-Komdat/assets/86961194/05c84ec3-2582-4071-9010-2f5f7e46b38e)
+    ![port-before](https://github.com/airamts/TA-UTS-Komdat/assets/86961194/516b05af-a78d-4480-aea6-a1efaac66a49)
+    ![port-after](https://github.com/airamts/TA-UTS-Komdat/assets/86961194/b2a815ca-a782-4684-87ee-21da92f38e50)
 
     
 6. Jalankan dengan menggunakan docker.
@@ -92,24 +92,10 @@ Untuk menjalankan server, kami membuat virtual machine Ubuntu Server 22.04 LTS m
     $ docker compose up -d
     ```
 
-#### Akses Website
+### Akses Website
 Untuk mengakses website kami, dapat menggunakan alamat IP publik maupun alamat DNS sebagai berikut.
 - Public IP	: http://20.127.187.248
 - DNS		: http://komdatp1kel1.eastus.cloudapp.azure.com
-
-
-##  Maintenance (opsional)
-
-Setting tambahan untuk maintenance secara periodik, misalnya:
-- buat backup database tiap pekan
-- hapus direktori sampah tiap hari
-- dll
-
-
-## Automation (opsional)
-
-Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
-
 
 ## How to Use
 ### 1. Tampilan awal web
