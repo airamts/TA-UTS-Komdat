@@ -12,12 +12,14 @@
 
 ## About DocPHT
 
-Deskripsi singkat tentang aplikasi tsb.
+DocPHT adalah sebuah aplikasi untuk membuat dan menyimpan catatan pribadi. Catatan-catatan yang ada bisa dikategorikan sesuai topik yang kita inginkan. Setiap catatan dapat terdiri dari lebih dari satu halaman, dan setiap halamannya dapat terdiri dari berbagai section, seperti judul, deskripsi, code, file gambar, link button, dan lain-lain. Setiap perubahan yang dibuat terhadap suatu catatan dapat disimpan sebagai sebuah versi. Kita bisa mengubah catatan kita menjadi ke versi yang lebih lama atau lebih baru. Catatan-catatan yang telah dibuat dapat dipublikasikan atau disimpan sebagai draft saja.
 
 
 ## Instalation
 
 - Prasyarat, apa saja yang harus diinstal sebelumnya.
+  - Apache 2.2+, enable module mod_rewrite dan mod_header, set "AllowOverride All"
+  - PHP 7.4+
 - Langkah instalasi dalam CLI.
 
 
