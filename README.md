@@ -18,23 +18,88 @@ Openrouteservice Maps merupakan aplikasi yang memungkinkan pengguna untuk menghi
 Selain itu, layanan ini juga memberikan kemungkinan untuk menyesuaikan masukan pengguna dengan pembatasan jenis jalan dan karakteristik kendaraan, sehingga pengguna dapat mengkustomisasi rute sesuai kebutuhan.
 
 
-## Instalation
+## Instalation and Configuration
+[`^ kembali ke atas ^`](#)
 
-- Prasyarat, apa saja yang harus diinstal sebelumnya.
-- Langkah instalasi dalam CLI.
+#### Kebutuhan Sistem
+- Unix, Linux atau Windows.
+- Docker
 
+#### Pembuatan Virtual Machine
+Untuk menjalankan server, kami membuat virtual machine Ubuntu Server 22.04 LTS menggunakan Microsoft Azure. Berikut langkah-langkah pembuatan virtual machine.
+1. Jika belum memiliki akun, registrasi menggunakan email IPB.
+2. Ambil student benefit, untuk akun yang menggunakan email IPB akan mendapat saldo $100.
+3. Buat resource baru dengan meng-klik `create a resource` pada home.
+4. Pilih service `Ubuntu Server 22.04 LTS` dan klik create.
+5. Isi nama resource group dan virtual machine name
+6. Pada bagian `Administrator account`, gunakan password sebagai authentication type, kemudian isi username dan password.
+7. Pada tab `Networking`, tambahkan HTTP(80) untuk `inbound ports`.
+8. Klik Review + create, kemudian create virtual machine.
 
-## Configuration (opsional)
+### Proses Instalasi
+1. Login ke dalam server menggunakan SSH. Untuk pengguna Linux dapat menggunakan `terminal`. Sedangkan, pengguna Windows dapat menggunakan `Powershell` atau `command prompt`.
+    ```
+    $ ssh projectkomdat@20.127.187.248
+    ```
 
-Setting server tambahan yang diperlukan untuk meningkatkan fungsi dan kinerja aplikasi, misalnya:
-- batas upload file
-- batas memori
-- dll
+2. Pastikan seluruh paket sistem *up-to-date*, kemudian setup Docker repository untuk mengunduh `Docker`.
+    ```
+    $ sudo apt update
+    $ sudo apt install apt-transport-https ca-certificates curl software-properties-common
+    $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+    $ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+    ```
 
-Plugin untuk fungsi tambahan
-- login dengan Google/Facebook
-- editor Markdown
-- dll
+3. Unduh `Docker` package.
+    ```
+    $ sudo apt install docker-ce
+    ```
+    
+4. Setup untuk menjalankan command docker sebagai user tanpa menggunakan sudo.
+    ```
+    $ sudo usermod -aG docker ${USER}
+    $ su - ${USER}
+    ```
+
+3. Unduh map client untuk **OpenRouteService** dengan menggunakan git clone, kemudian pindah ke folder repository yang telah diunduh. 
+    ```
+    $ git clone https://github.com/GIScience/ors-map-client.git
+    $ cd ors-map-client
+    ```
+
+4. Lakukan konfigurasi aplikasi dengan menyalin semua file pada `src/config-example` ke `src/config` dengan menghilangkan `-example` pada setiap nama file.
+    > app-config-example.js => app-config.js<br>
+    ors-map-filters-example.js => ors-map-filters.js<br>
+    layer-zoom-mapping-example.js => layer-zoom-mapping.js<br>
+    hooks-example.js => hooks.js<br>
+    theme-example.js => theme.js<br>
+    default-map-settings-example.js => default-map-settings.js<br>
+    settings-options-example.js => settings-options.js
+    
+    Atau dapat dengan menggunakan perintah ini.
+    ```
+    $ cd src && cp config-examples/* config && for i in config/*-example.js; do mv -- "$i" "${i%-example.js}.js"; done
+    ```
+5. Pada file `app-config.js`, isi nilai berikut.
+    - orsApiKey - didapatkan dari [website developer openrouteservice](https://openrouteservice.org/dev) dengan me-*request* API token
+    - bitlyApiKey - didapatkan dari [website developer bit.ly](https://app.bitly.com/) dengan meng-*generate* API token
+    - bitlyLogin - email atau username yang digunakan untuk [website developer bit.ly](https://app.bitly.com/)
+    ![configkey](https://github.com/airamts/TA-UTS-Komdat/assets/86961194/fa0b1ff5-a105-46d1-9d12-7ef64b525d5f)
+
+5. Set port yang akan dijalankan menjadi 80 dengan mengubah port pada file `docker-compose.yml`
+    ![port-before](https://github.com/airamts/TA-UTS-Komdat/assets/86961194/61c12f66-bc73-4069-9237-397c272bb10b)
+    ![port-after](https://github.com/airamts/TA-UTS-Komdat/assets/86961194/05c84ec3-2582-4071-9010-2f5f7e46b38e)
+
+    
+6. Jalankan dengan menggunakan docker.
+    ```
+    $ docker compose up -d
+    ```
+
+#### Akses Website
+Untuk mengakses website kami, dapat menggunakan alamat IP publik maupun alamat DNS sebagai berikut.
+- Public IP	: http://20.127.187.248
+- DNS		: http://komdatp1kel1.eastus.cloudapp.azure.com
 
 
 ##  Maintenance (opsional)
