@@ -53,6 +53,25 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 ## How to Use
 ### 1. Tampilan awal web
 ![alt text](assets/images/osr-img1.jpg?raw=true)
+Web akan langsung menampilkan peta dengan beberapa icon/fitur sebagai berikut.
+#### Sisi Kiri
+| Icon/fitur                               | Keterangan         |
+| ---------------------------------- | ----------- |
+| Icon menu                     | Membuka sidebar |
+| Search bar           | Mencari tempat |
+| Icon belok kanan           | Mencari rute dari satu tempat ke tempat lain |
+| Icon plus/minus | Zoom in/zoom out
+| Icon Segi lima/segiempat | Menggambar bentuk poligon atau segiempat untuk menandakan area yang ingin dihindari rute |
+| Icon panah | Menggambar garis dari satu titik ke titik lain untuk menghitung jaraknya |
+| Huruf "m" | Mengganti satuan jarak yang digunakan ("m" untuk meter, "M" untuk mil, "NM" untuk mil laut) |
+#### Sisi Kanan
+| Icon/fitur                               | Keterangan         |
+| ---------------------------------- | ----------- |
+| Icon menu                     | Membuka sidebar |
+| Icon layer                     | Mengganti jenis pencitraan yang digunakan pada peta |
+| Icon orang                     | Memunculkan/menghilangkan tombol panah untuk menggeser tampilan peta |
+| Icon GPS                         | Mencari lokasi dari device yang sedang digunakan |
+
 ### 2. Mengetahui lebih dari satu titik lokasi
 ![alt text](assets/images/osr-img3.jpg?raw=true)
 ### 3. Mengetahui jarak antar lokasi (bisa 2 atau lebih)
