@@ -103,40 +103,58 @@ Untuk mengakses website kami, dapat menggunakan alamat IP publik maupun alamat D
 ![alt text](assets/images/osr-img1.jpg?raw=true)
 Web akan langsung menampilkan peta serta beberapa icon/fitur yang memiliki kegunaan berikut.
 #### Sisi Kiri
-| Icon/fitur                               | Kegunaan         |
-| ---------------------------------- | ----------- |
-| Icon menu                     | Membuka sidebar |
-| Search bar           | Mencari tempat |
-| Icon belok kanan           | Mencari rute dari satu tempat ke tempat lain |
-| Icon plus/minus | Zoom in/zoom out
+| Icon/fitur           | Kegunaan                                                                                    |
+| -------------------- | ------------------------------------------------------------------------------------------- |
+| Icon menu            | Membuka sidebar                                                                             |
+| Search bar           | Mencari tempat                                                                              |
+| Icon belok kanan     | Mencari rute dari satu tempat ke tempat lain                                                |
+| Icon plus/minus      | Zoom in/zoom out                                                                            |
 | Icon segi lima/empat | Menggambar bentuk poligon atau segiempat untuk menandai area yang ingin dihindari pada rute |
-| Icon panah | Menggambar garis dari satu titik ke titik lain untuk menghitung jaraknya |
-| Huruf "m" | Mengganti satuan jarak yang digunakan ("m" untuk meter, "M" untuk mil, "NM" untuk mil laut) |
+| Icon panah           | Menggambar garis dari satu titik ke titik lain untuk menghitung jaraknya                    |
+| Huruf "m"            | Mengganti satuan jarak yang digunakan ("m" untuk meter, "M" untuk mil, "NM" untuk mil laut) |
 #### Sisi Kanan
-| Icon/fitur                               | Kegunaan         |
-| ---------------------------------- | ----------- |
-| Icon menu                     | Membuka sidebar |
-| Icon layer                     | Mengganti jenis pencitraan yang digunakan pada peta |
-| Icon orang                     | Memunculkan/menghilangkan tombol panah untuk menggeser tampilan peta |
-| Icon GPS                         | Mencari lokasi dari device yang sedang digunakan |
+| Icon/fitur           | Kegunaan                                                                                    |
+| -------------------- | ------------------------------------------------------------------------------------------- |
+| Icon menu            | Membuka sidebar                                                                             |
+| Icon layer           | Mengubah mode layer peta                                                                    |
+| Icon orang           | Memunculkan/menghilangkan tombol panah untuk menggeser tampilan peta                        |
+| Icon GPS             | Mencari lokasi dari device yang sedang digunakan                                            |
 
 ### 2. Mengetahui lokasi suatu titik pada peta
 ![alt text](assets/images/ors-1-titik.jpg?raw=true)
 Untuk melakukan ini, kita hanya perlu mengetikkan nama lokasi pada search bar. Jika lokasi tersebut ditemukan pada database, lokasi tersebut akan diperlihatkan pada peta. Rincian terkait lokasi tersebut, seperti nama lokasi, letak negara, layer lokasi (misal: street, venue), dan koordinat longitude-latitude akan terlihat pada sidebar.
-### 3. Mengetahui jarak antar lokasi (bisa 2 atau lebih)
+### 3. Mendapatkan rute untuk mencapai suatu lokasi dari lokasi tertentu (bisa 2 atau lebih)
 ![alt text](assets/images/osr-img4.jpg?raw=true)
-Untuk melakukan ini, pertama-tama, kita perlu membuka sidebar. Pastikan bahwa yang terpilih adalah "Find & Go", bukan "Reach", lalu masukkan lokasi awal kita di kolom "Starting Place". Kemudian, kita memasukkan lokasi tujuan akhir di kolom "Destination". Jika kita ingin mencari rute yang melewati lebih dari lokasi, kita bisa memilih "Add place input" agar bisa memasukkan lokasi-lokasi tambahan. Urutan lokasi yang dikunjungi juga bisa diubah-ubah urutannya. Kita kemudian akan mendapatkan rute pada peta beserta beberapa rincian seperti jarak, waktu tempuh, instruksi jalan yang harus dilewati, altitudo jalan yang dilewati rute, dan pilihan untuk melihat permukaan (surface), steepness (kemiringan), atau jenis jalan (way types) dari jalan yang dilewati rute.
+Untuk melakukan ini, pertama-tama, kita perlu membuka sidebar. Pastikan bahwa yang terpilih adalah "Find & Go", bukan "Reach", lalu masukkan lokasi awal kita di kolom "Starting Place". Kemudian, kita masukkan lokasi tujuan akhir di kolom "Destination". Jika kita ingin mencari rute yang melewati lokasi-lokasi lain sebelum tiba di lokasi akhir, kita bisa memilih "Add place input" agar bisa memasukkan lokasi-lokasi tersebut. Urutan lokasi yang dikunjungi rute juga bisa diubah-ubah urutannya. Kita kemudian akan mendapatkan rute pada peta beserta beberapa rincian seperti jarak tempuh, waktu tempuh, instruksi jalan yang harus dilewati, altitudo jalan yang dilewati rute, dan pilihan untuk melihat permukaan (surface), steepness (kemiringan), atau jenis jalan (way types) dari jalan yang dilewati rute.
 
 Kita juga dapat menyesuaikan sejumlah parameter untuk rute yang ditampilkan, yaitu preferensi rute (reccommended atau shortest), parameter profil (tergantung jenis mode transportasi), hal-hal yang ingin dihindari rute (fitur tertentu, perbatasan dengan negara lain, negara tertentu), dan rute alternatif.
 ### 4. Mengetahui jarak antar lokasi (bisa 2 atau lebih) dengan menarik garis lurus
 ![alt text](assets/images/osr-img5.jpg?raw=true)
-### 5. Menghindari area tertentu pada peta
+Untuk melakukan ini, kita perlu mengeklik icon panah yang terdapat pada sisi kiri layar (di atas tombol huruf "m"). Kemudian, kita tinggal langsung memilih titik-titik lokasi pada peta. Pada setiap titik, akan muncul informasi besar sudut masuk & sudut keluar (sudut 0° tegak lurus ke arah utara), pertambahan jarak dari titik ke titik, dan akumulasi jarak dari titik awal sampai ke titik itu. Jika merasa sudah cukup memilih titik, tutup pop-up yang terletak di kanan bawah layar, lalu klik titik yang terakhir ditambahkan. Titik awal akan berwarna hijau, sementara titik akhir akan berwarna merah. Jika titik-titik ini sudah tidak diperlukan lagi, klik icon panah seperti di awal agar titik-titik tersebut hilang dari peta.
+### 5. Menampilkan isochrone dari suatu titik
+![alt text](assets/images/ors-isochrone.jpg?raw=true)
+Untuk melakukan ini, pastikan kita memilih "Reach", bukan "Find & Go" pada sidebar. Lalu, masukkan nama lokasi yang ingin dilihat isochrone-nya. Isochrone yang ditampilkan dapat diatur menggunakan metode waktu atau jarak. Setelah isochrone muncul pada peta, kita dapat melihat pada sidebar estimasi populasi pada setiap rentang waktu/rentang jaraknya.
+### 6. Mengatur profile dan parameter unik profile
+Agar rute yang dibuatkan aplikasi bisa lebih sesuai dengan kebutuhan kita, ada beberapa hal yang dapat kita lakukan.
+
+![alt text](assets/images/ors-profile.jpg?raw=true)
+
+Kita bisa mengatur profile pada sidebar sesuai dengan mode transportasi yang ingin kita gunakan. Di sini, secara garis besar, terdapat 5 macam profile: sepeda, pejalan kaki, mobil, kendaraan berat, dan kursi roda. Profile sepeda, pejalan kaki, dan kendaraan berat bahkan memiliki profile yang lebih spesifik, misalnya sepeda bisa berjenis road bike, e-bike, atau mountain bike. Rute akan disesuaikan agar jalan-jalan yang dilalui bisa ditempuh menggunakan mode transportasi tersebut. 
+
+![alt text](assets/images/ors-profile-parameter.png?raw=true)
+
+Profile yang kita pilih dapat memiliki parameter-parameter unik yang bisa disesuaikan agar lebih spesifik lagi terhadap kebutuhan kita. Misalkan, jika menggunakan mobil, kita dapat mengisi parameter untuk menghindari jalan dengan batasan kecepatan tertentu. Atau, jika menggunakan kendaraan berat, kita dapat mengatur ukuran panjang, lebar, tinggi, berat, dan  muatan sumbu kendaraan.
+
+![alt text](assets/images/ors-profile-avoid.jpg?raw=true)
+
+Pilihan untuk parameter "avoid features" (hindari fitur) juga akan berubah tergantung profile yang kita pilih. Jika kita memilih sepeda, pejalan kaki, atau kursi roda, fitur-fitur yang bisa dihindari adalah kapal ferry, arungan, dan tangga. Sementara itu, jika kita memilih mobil atau kendaraan berat, fitur-fitur yang bisa dihindari adalah jalan bebas hambatan, jalan tol, dan kapal ferry.
+### 7. Menghindari area tertentu pada peta
 ![alt text](assets/images/ors-segiempat-poligon.jpg?raw=true)
-Untuk mencegah rute melewati suatu area yang tidak kita inginkan, kita bisa menandainya dengan menggambar segi empat atau poligon pada area tersebut menggunakan icon yang ada di sisi kiri.
+Untuk mencegah rute melewati suatu area yang tidak kita inginkan pada rute, kita bisa menandainya dengan menggambar segi empat atau poligon pada area tersebut menggunakan icon yang ada di sisi kiri.
 ![alt text](assets/images/ors-segiempat-info.jpg?raw=true)
 Jika kita mengeklik gambar segi empat atau poligon yang sudah kita buat, akan muncul sebuah pop-up di kanan bawah layar yang berisi informasi luas daerah, nama daerah di peta, dan koordinat longitude-latitude (pada gambar di atas ditandai dengan panah merah).
-### 7. Mengubah mode layer tampilan map
-Pengguna dapat mengubah mode layer map yang diinginkan dengan mengklik simbol yang berada di pojok kanan atas berikut.
+### 8. Mengubah mode layer tampilan map
+Pengguna dapat mengubah mode layer map yang diinginkan dengan mengklik icon layer yang berada di pojok kanan atas layar.
 ![alt text](assets/images/osr-img14.jpg?raw=true)
 Berikut adalah tampilan masing-masing mode layer:
 #### Mode OpenStreetMap
@@ -161,7 +179,7 @@ OpenRouteService ditulis dalam bahasa pemrograman Java yang mendukung penggunaan
 6. Bisa membuat graf dan menghitung luas daerah yang ditandain dengan bentuk persegi/polygon.
 
 Tentu saja, sebuah aplikasi pasti memiliki kekurangan. Kekurangan yang dimiliki OpenRouterService antara lain :
-1. Pada OpenRouterService Maps tidak memiliki fitur lalu lintas real-time dan integrasi dengan layanan Google lainnya.
+1. OpenRouterService Maps tidak memiliki fitur lalu lintas real-time dan integrasi dengan layanan Google lainnya.
 2. OpenRouterService Maps mungkin memiliki kurangnya data pemetaan dan bisnis lokal. 
 3. OpenRouterService tidak memiliki simbol spesifik seperti Google Maps. 
 
