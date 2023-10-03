@@ -1,5 +1,5 @@
 # Welcome to Our Project: OpenRouteService Maps 🌎
-![alt text](assets/images/logosr.png?raw=true)
+![alt text](assets/images/logo.png?raw=true)(https://github.com/GIScience/ors-map-client/blob/main/src/assets/img/logo.png)
 
 **Oleh Kelompok 1 P1:**
 
