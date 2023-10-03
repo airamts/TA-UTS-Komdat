@@ -168,7 +168,7 @@ Berikut adalah tampilan masing-masing mode layer:
 #### Mode Outdoors
 ![alt text](assets/images/osr-img12.jpg?raw=true)
 
-## Discussion
+## Review
 
 OpenRouteService ditulis dalam bahasa pemrograman Java yang mendukung penggunaan MySQL. Aplikasi ini menawarkan beberapa kelebihan diantaranya:
 1. Bisa mengatur parameter (kecepatan maks, lokasi di rute yang mau dihindari, rute alternatif). 
