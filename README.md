@@ -8,8 +8,8 @@
 | 1   | Dhianita Shafa                     | G6401211016 |
 | 2   | Tan, Maria Putri Ariyani           | G6401211049 |
 | 3   | Muhammad Ariiq Arrafi              | G6401211062 |
-| 4   | Dwi Fitriani Azhari                | G64012011072 |
-| 5   | Medina Fitri Maulida               | G64012011096 |
+| 4   | Dwi Fitriani Azhari                | G6401211072 |
+| 5   | Medina Fitri Maulida               | G6401211096 |
 
 ## About OpenRouteService Maps
 
