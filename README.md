@@ -1,5 +1,5 @@
 # Welcome to Our Project: OpenRouteService Maps 🌎
-![alt text](assets/images/osr-img.jpg?raw=true)
+![alt text](assets/images/logosr.png?raw=true)
 
 **Oleh Kelompok 1 P1:**
 
