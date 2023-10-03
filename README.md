@@ -115,7 +115,6 @@ Web akan langsung menampilkan peta serta beberapa icon/fitur yang memiliki kegun
 #### Sisi Kanan
 | Icon/fitur           | Kegunaan                                                                                    |
 | -------------------- | ------------------------------------------------------------------------------------------- |
-| Icon menu            | Membuka sidebar                                                                             |
 | Icon layer           | Mengubah mode layer peta                                                                    |
 | Icon orang           | Memunculkan/menghilangkan tombol panah untuk menggeser tampilan peta                        |
 | Icon GPS             | Mencari lokasi dari device yang sedang digunakan                                            |
